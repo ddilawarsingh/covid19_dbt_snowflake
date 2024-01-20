@@ -27,3 +27,23 @@ Happy modeling!
 [0m20:28:16.515193 [debug] [MainThread]: Command `dbt init` succeeded at 20:28:16.514929 after 178.76 seconds
 [0m20:28:16.515734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53c0bbe5f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53befeb6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53befe8a30>]}
 [0m20:28:16.516271 [debug] [MainThread]: Flushing usage events
+[0m20:47:40.699000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0adcbbf880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0adafe55a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0adafe48e0>]}
+
+
+============================== 20:47:40.703444 | d47226c9-34fc-4363-ab02-8128a0de45de ==============================
+[0m20:47:40.703444 [info ] [MainThread]: Running with dbt=1.7.5
+[0m20:47:40.704373 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dilawar/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:47:40.705234 [info ] [MainThread]: dbt version: 1.7.5
+[0m20:47:40.705856 [info ] [MainThread]: python version: 3.10.12
+[0m20:47:40.706469 [info ] [MainThread]: python path: /home/dilawar/Desktop/covid19_dbt_snowflake/.venv/bin/python3
+[0m20:47:40.707101 [info ] [MainThread]: os info: Linux-6.5.0-14-generic-x86_64-with-glibc2.35
+[0m20:47:40.987443 [info ] [MainThread]: Using profiles dir at /home/dilawar/.dbt
+[0m20:47:40.988286 [info ] [MainThread]: Using profiles.yml file at /home/dilawar/.dbt/profiles.yml
+[0m20:47:40.988990 [info ] [MainThread]: Using dbt_project.yml file at /home/dilawar/Desktop/covid19_dbt_snowflake/dbt_project.yml
+[0m20:47:40.989788 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m20:47:40.990992 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.35219106, "process_user_time": 2.678736, "process_kernel_time": 0.144363, "process_mem_max_rss": "102492", "process_in_blocks": "2672", "process_out_blocks": "16", "command_success": false}
+[0m20:47:40.991873 [debug] [MainThread]: Command `dbt debug` failed at 20:47:40.991651 after 0.35 seconds
+[0m20:47:40.992471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0adcbbf880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ada04ea10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0ada04fd60>]}
+[0m20:47:40.993098 [debug] [MainThread]: Flushing usage events
