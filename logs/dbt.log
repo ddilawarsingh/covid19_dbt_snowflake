@@ -1,0 +1,29 @@
+[0m20:25:17.814762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53c0bbe5f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53befea020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53befe8340>]}
+
+
+============================== 20:25:17.817884 | 522fbd28-89a2-4d33-bc42-00b7b165147d ==============================
+[0m20:25:17.817884 [info ] [MainThread]: Running with dbt=1.7.5
+[0m20:25:17.818589 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/dilawar/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:25:46.825762 [debug] [MainThread]: Starter project path: /home/dilawar/Desktop/covid19_dbt_snowflake/.venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m20:25:46.828466 [info ] [MainThread]: 
+Your new dbt project "covid19_dbt_snowflake" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:25:46.829042 [info ] [MainThread]: Setting up your profile.
+[0m20:28:16.512848 [info ] [MainThread]: Profile covid19_dbt_snowflake written to /home/dilawar/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:28:16.514310 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 178.75673, "process_user_time": 2.586646, "process_kernel_time": 0.091809, "process_mem_max_rss": "102404", "process_in_blocks": "1552", "process_out_blocks": "88"}
+[0m20:28:16.515193 [debug] [MainThread]: Command `dbt init` succeeded at 20:28:16.514929 after 178.76 seconds
+[0m20:28:16.515734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53c0bbe5f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53befeb6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f53befe8a30>]}
+[0m20:28:16.516271 [debug] [MainThread]: Flushing usage events
